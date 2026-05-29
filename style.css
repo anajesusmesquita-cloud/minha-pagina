@@ -1,0 +1,37 @@
+body {
+font-family: Arial, sans-serif; /* Define a fonte do texto */
+background-color: #f4f4f4af; /* Cor de fundo da página */
+color: #333; /* Cor do texto */
+margin: 20px; /* Margem em volta do conteúdo */
+text-align: center; /* Alinha o texto ao centro */
+}
+h1 {
+color: #b32a00; /* Cor do título principal */
+}
+p {
+line-height: 1.6; /* Espaçamento entre as linhas do parágrafo */
+}
+ul {list-style-type: none; /* Remove os marcadores da lista */
+padding: 0;
+}
+
+li {
+background-color: #e2e2e200;
+margin: 5px 0;
+padding: 8px;
+border-radius: 5px;
+display: inline-block; /* Faz os itens da lista ficarem lado a lado */
+margin-right: 10px;
+}
+img {
+border: 3px solid #b30000cb; /* Borda na imagem */
+border-radius: 50%; /* Faz a imagem ficar redonda */
+margin-top: 20px;
+}
+a {
+color: #ff0000; /* Cor dos links */
+text-decoration: none; /* Remove o sublinhado dos links */
+}
+a:hover {
+text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
